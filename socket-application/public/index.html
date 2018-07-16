@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+<div id="header">
+    <h1>CHATROOM</h1>
+</div>    
+<div id="input-section">
+        <input type="text" id="inp" placeholder="Type a message">
+        <button id="btn">send</button>
+</div>
+<div id="messages">
+        <ul id="result"></ul>
+</div>
+<div id="user-status">
+    <h3>Online users</h3>
+    <ul id="users"></ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

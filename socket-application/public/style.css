@@ -1,0 +1,38 @@
+body {
+     font: 13px Helvetica, Arial; 
+    }
+#header{
+
+   width: 1357px;
+   height:100px;
+   
+   margin: 5px 5px 5px 5px ;
+}
+h1{
+    text-align: center;
+    color:rgb(10, 10, 10);
+    font-size: 25px;
+    font-style: italic;
+}
+#input-section{
+    position: absolute;
+    bottom: 30px;
+    left:48px;
+}
+#inp{
+    width: 700px;
+    height: 40px;;
+}
+#btn{
+    height: 45px;
+}
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  #user-status{
+      float: right;
+      margin-right: 40px;
+      font-size: 20px;
+  }
